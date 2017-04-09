@@ -30,5 +30,5 @@ delphi:
 pascal:
   name: Pascal
   description: Language with no features.
-
-# github version 2
+    
+# standalone version
