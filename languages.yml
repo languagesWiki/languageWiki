@@ -1,1 +1,29 @@
-new file
+kotlin:
+  name: Kotlin
+  features:
+    val_var:
+        inspired_by: scala
+    lambda:
+        inspired_by: scala
+scala:
+  name: Scala
+  features: 
+    implicits:
+      inspired_by: js
+    akka:
+      inspired_by: kotlin
+js:
+  name: Javascript
+  features: 
+    arrow_functions:
+      inspired_by: pascal
+    super:
+      inspired_by: scala
+pascal:
+  name: Pascal
+  features: 
+    f1:
+      inspired_by: scala
+    f2:
+      inspired_by: scala
+
