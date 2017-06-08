@@ -5,6 +5,11 @@ kotlin:
     - Andrey Breslav
     - Maxim Shafirov
     - Roman Elizarov
+  influenced: []
+  influenced_by:
+  - java
+  - c#
+  - scala
   features:
     val_var:
       description: ""
@@ -41,6 +46,16 @@ kotlin:
 scala:
   name: Scala
   creator: Martin Odersky
+  influenced: [kotlin]
+  influenced_by:
+  - java
+  - haskell
+  - ml
+  - smalltalk
+  - scheme
+  - lisp
+  - erlang
+  - eiffel
   features:
     val_var:
       description: ""
@@ -64,6 +79,15 @@ delphi:
 # ------------------------------------------
 ml:
   name: ML
+  influenced:
+  - erlang
+  - haskell
+  - c#
+  - c++
+  - scala
+  influenced_by:
+  - lisp
+  - iswim
   features:
     types_on_the_right:
       description: ""
@@ -73,4 +97,612 @@ csharp:
   creator: Microsoft
   people:
     - Anders Heilsberg
-
+# ------------------------------------------
+ada:
+  influenced:
+  - java
+  - eiffel
+  - ruby
+  - c++
+  influenced_by:
+  - eiffel
+  - clu
+  - smalltalk
+  - algol
+  - modula-2
+  - java
+  - algol_68
+  - algol_60
+  - apl
+  - c++
+  - pascal
+  name: ada
+# ------------------------------------------
+algol:
+  influenced:
+  - icon
+  - clu
+  - c
+  - pl/i
+  - scheme
+  - ada
+  - dylan
+  - modula-2
+  - simula
+  - algol_68
+  - basic
+  - modula-3
+  - pascal
+  influenced_by: []
+  name: algol
+# ------------------------------------------
+algol_60:
+  influenced:
+  - c
+  - iswim
+  - ada
+  - simula
+  - algol_68
+  - basic
+  - pascal
+  influenced_by: []
+  name: algol_60
+# ------------------------------------------
+algol_68:
+  influenced:
+  - python
+  - c
+  - c++
+  - ada
+  influenced_by:
+  - algol_60
+  - algol
+  name: algol_68
+# ------------------------------------------
+apl:
+  influenced:
+  - haskell
+  - forth
+  - common_lisp
+  - fp
+  - ada
+  influenced_by: []
+  name: apl
+# ------------------------------------------
+awk:
+  influenced:
+  - lua
+  - tcl
+  - perl
+  influenced_by:
+  - c
+  name: awk
+# ------------------------------------------
+basic:
+  influenced:
+  - visual_basic
+  - perl
+  influenced_by:
+  - speedcoding
+  - algol_60
+  - algol
+  - fortran
+  name: basic
+# ------------------------------------------
+c:
+  influenced:
+  - newsqueak
+  - objective-c
+  - php
+  - c#
+  - perl
+  - java
+  - awk
+  - javascript
+  - c++
+  influenced_by:
+  - fortran
+  - algol
+  - pl/i
+  - speedcoding
+  - algol_68
+  - algol_60
+  name: c
+# ------------------------------------------
+c#:
+  influenced:
+  - java
+  - php
+  influenced_by:
+  - visual_basic
+  - haskell
+  - ml
+  - modula-3
+  - c
+  - object_pascal
+  - java
+  - eiffel
+  - c++
+  name: c#
+# ------------------------------------------
+c++:
+  influenced:
+  - python
+  - php
+  - c#
+  - ruby
+  - ada
+  - perl
+  - java
+  - dylan
+  - lua
+  influenced_by:
+  - ml
+  - clu
+  - c
+  - ada
+  - simula
+  - algol_68
+  name: c++
+# ------------------------------------------
+clu:
+  influenced:
+  - lua
+  - ruby
+  - c++
+  - ada
+  influenced_by:
+  - algol
+  - simula
+  - lisp
+  - pascal
+  name: clu
+# ------------------------------------------
+cobol:
+  influenced:
+  - pl/i
+  influenced_by: []
+  name: cobol
+# ------------------------------------------
+common_lisp:
+  influenced:
+  - java
+  - dylan
+  influenced_by:
+  - apl
+  - scheme
+  - lisp
+  name: common_lisp
+# ------------------------------------------
+dylan:
+  influenced:
+  - python
+  - ruby
+  influenced_by:
+  - smalltalk
+  - algol
+  - scheme
+  - common_lisp
+  - lisp
+  - c++
+  name: dylan
+# ------------------------------------------
+eiffel:
+  influenced:
+  - java
+  - c#
+  - ruby
+  - scala
+  - ada
+  influenced_by:
+  - simula
+  - ada
+  name: eiffel
+# ------------------------------------------
+erlang:
+  influenced:
+  - scala
+  influenced_by:
+  - ml
+  - smalltalk
+  - prolog
+  name: erlang
+# ------------------------------------------
+forth:
+  influenced: []
+  influenced_by:
+  - apl
+  - lisp
+  name: forth
+# ------------------------------------------
+fortran:
+  influenced:
+  - c
+  - basic
+  - pl/i
+  influenced_by:
+  - speedcoding
+  - modula-2
+  name: fortran
+# ------------------------------------------
+fp:
+  influenced:
+  - haskell
+  influenced_by:
+  - apl
+  name: fp
+# ------------------------------------------
+haskell:
+  influenced:
+  - java
+  - c#
+  - scala
+  - python
+  influenced_by:
+  - ml
+  - scheme
+  - iswim
+  - lisp
+  - perl
+  - apl
+  name: haskell
+# ------------------------------------------
+icon:
+  influenced:
+  - python
+  - c#
+  - lua
+  influenced_by:
+  - algol
+  - pascal
+  name: icon
+# ------------------------------------------
+io:
+  influenced: []
+  influenced_by:
+  - python
+  - self
+  - smalltalk
+  - lua
+  - lisp
+  name: io
+# ------------------------------------------
+iswim:
+  influenced:
+  - ml
+  - haskell
+  influenced_by:
+  - algol_60
+  - lisp
+  name: iswim
+# ------------------------------------------
+java:
+  influenced:
+  - python
+  - php
+  - c#
+  - scala
+  - ada
+  - javascript
+  influenced_by:
+  - objective-c
+  - haskell
+  - c#
+  - oberon
+  - smalltalk
+  - modula-3
+  - c
+  - ada
+  - object_pascal
+  - common_lisp
+  - eiffel
+  - c++
+  - pascal
+  name: java
+# ------------------------------------------
+javascript:
+  influenced: []
+  influenced_by:
+  - python
+  - c
+  - scheme
+  - self
+  - lisp
+  - perl
+  - java
+  name: javascript
+# ------------------------------------------
+lisp:
+  influenced:
+  - python
+  - haskell
+  - logo
+  - javascript
+  - scala
+  - ml
+  - clu
+  - smalltalk
+  - ruby
+  - ucblogo
+  - scheme
+  - tcl
+  - iswim
+  - common_lisp
+  - perl
+  - dylan
+  - forth
+  - io
+  - lua
+  influenced_by: []
+  name: lisp
+# ------------------------------------------
+logo:
+  influenced:
+  - smalltalk
+  influenced_by:
+  - lisp
+  name: logo
+# ------------------------------------------
+lua:
+  influenced:
+  - ruby
+  - io
+  influenced_by:
+  - clu
+  - scheme
+  - modula-2
+  - self
+  - lisp
+  - awk
+  - c++
+  - pascal
+  name: lua
+# ------------------------------------------
+modula-2:
+  influenced:
+  - oberon
+  - modula-3
+  - lua
+  - fortran
+  - ada
+  influenced_by:
+  - algol
+  - simula
+  - pascal
+  name: modula-2
+# ------------------------------------------
+modula-3:
+  influenced:
+  - java
+  - c#
+  - python
+  influenced_by:
+  - pascal
+  - algol
+  - oberon
+  - modula-2
+  name: modula-3
+# ------------------------------------------
+newsqueak:
+  influenced: []
+  influenced_by:
+  - c
+  name: newsqueak
+# ------------------------------------------
+oberon:
+  influenced:
+  - java
+  - modula-3
+  influenced_by:
+  - pascal
+  - modula-2
+  name: oberon
+# ------------------------------------------
+object_pascal:
+  influenced:
+  - java
+  - c#
+  influenced_by:
+  - smalltalk
+  - pascal
+  name: object_pascal
+# ------------------------------------------
+objective-c:
+  influenced:
+  - java
+  influenced_by:
+  - smalltalk
+  - c
+  name: objective-c
+# ------------------------------------------
+pascal:
+  influenced:
+  - icon
+  - oberon
+  - clu
+  - modula-3
+  - modula-2
+  - ada
+  - object_pascal
+  - perl
+  - java
+  - lua
+  influenced_by:
+  - algol_60
+  - algol
+  name: pascal
+# ------------------------------------------
+perl:
+  influenced:
+  - php
+  - haskell
+  - ruby
+  - javascript
+  - python
+  influenced_by:
+  - python
+  - smalltalk
+  - c
+  - lisp
+  - awk
+  - basic
+  - c++
+  - pascal
+  name: perl
+# ------------------------------------------
+php:
+  influenced: []
+  influenced_by:
+  - python
+  - c#
+  - smalltalk
+  - c
+  - perl
+  - java
+  - c++
+  name: php
+# ------------------------------------------
+pl/i:
+  influenced:
+  - c
+  influenced_by:
+  - speedcoding
+  - cobol
+  - algol
+  - fortran
+  name: pl/i
+# ------------------------------------------
+prolog:
+  influenced:
+  - erlang
+  influenced_by: []
+  name: prolog
+# ------------------------------------------
+python:
+  influenced:
+  - php
+  - ruby
+  - io
+  - javascript
+  - perl
+  influenced_by:
+  - haskell
+  - smalltalk
+  - modula-3
+  - lisp
+  - perl
+  - java
+  - dylan
+  - algol_68
+  - c++
+  name: python
+# ------------------------------------------
+ruby:
+  influenced: []
+  influenced_by:
+  - python
+  - eiffel
+  - clu
+  - smalltalk
+  - scheme
+  - ada
+  - lua
+  - lisp
+  - perl
+  - dylan
+  - c++
+  name: ruby
+# ------------------------------------------
+scheme:
+  influenced:
+  - haskell
+  - scala
+  - ruby
+  - common_lisp
+  - t
+  - dylan
+  - javascript
+  - lua
+  influenced_by:
+  - algol
+  - lisp
+  name: scheme
+# ------------------------------------------
+self:
+  influenced:
+  - lua
+  - io
+  - javascript
+  influenced_by:
+  - smalltalk
+  name: self
+# ------------------------------------------
+simula:
+  influenced:
+  - eiffel
+  - clu
+  - smalltalk
+  - c++
+  - modula-2
+  influenced_by:
+  - algol_60
+  - algol
+  name: simula
+# ------------------------------------------
+smalltalk:
+  influenced:
+  - objective-c
+  - java
+  - php
+  - python
+  - scala
+  - ruby
+  - ada
+  - object_pascal
+  - self
+  - perl
+  - erlang
+  - dylan
+  - io
+  influenced_by:
+  - logo
+  - simula
+  - lisp
+  name: smalltalk
+# ------------------------------------------
+speedcoding:
+  influenced:
+  - c
+  - basic
+  - pl/i
+  - fortran
+  influenced_by: []
+  name: speedcoding
+# ------------------------------------------
+t:
+  influenced: []
+  influenced_by:
+  - scheme
+  name: t
+# ------------------------------------------
+tcl:
+  influenced:
+  - php
+  influenced_by:
+  - awk
+  - lisp
+  name: tcl
+# ------------------------------------------
+ucblogo:
+  influenced:
+  - smalltalk
+  influenced_by:
+  - lisp
+  name: ucblogo
+# ------------------------------------------
+visual_basic:
+  influenced:
+  - c#
+  influenced_by:
+  - basic
+  name: visual_basic
