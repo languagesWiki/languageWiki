@@ -12,7 +12,7 @@ kotlin:
   - scala
   features:
     val_var:
-      description: ""
+      description: "Add new"
       inspired_by: scala.features.val_var
     types_on_the_right:
       description: ""
