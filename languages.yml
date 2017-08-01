@@ -28,7 +28,7 @@ kotlin:
       inspired_by: scala.features.extractors
     extensions:
       description: ""
-      inspired_by: csharp
+      inspired_by: c#
     colon_for_inheritance:
       description: ""
       inspired_by: scala
@@ -37,10 +37,10 @@ kotlin:
       inspired_by: scala
     angle_backets_for_generics:
       description: <...> for generics
-      inspired_by: csharp
+      inspired_by: c#
     coroutines:
       description: ""
-      predated_by: csharp
+      predated_by: c#
       invented: true
 # ------------------------------------------
 scala:
@@ -88,15 +88,6 @@ ml:
   influenced_by:
   - lisp
   - iswim
-  features:
-    types_on_the_right:
-      description: ""
-# ------------------------------------------
-csharp:
-  name: C#
-  creator: Microsoft
-  people:
-    - Anders Heilsberg
 # ------------------------------------------
 ada:
   influenced:
@@ -113,7 +104,6 @@ ada:
   - java
   - algol_68
   - algol_60
-  - apl
   - c++
   - pascal
   name: ada
@@ -123,7 +113,6 @@ algol:
   - icon
   - clu
   - c
-  - pl/i
   - scheme
   - ada
   - dylan
@@ -159,20 +148,9 @@ algol_68:
   - algol
   name: algol_68
 # ------------------------------------------
-apl:
-  influenced:
-  - haskell
-  - forth
-  - common_lisp
-  - fp
-  - ada
-  influenced_by: []
-  name: apl
-# ------------------------------------------
 awk:
   influenced:
   - lua
-  - tcl
   - perl
   influenced_by:
   - c
@@ -191,7 +169,6 @@ basic:
 # ------------------------------------------
 c:
   influenced:
-  - newsqueak
   - objective-c
   - php
   - c#
@@ -203,7 +180,6 @@ c:
   influenced_by:
   - fortran
   - algol
-  - pl/i
   - speedcoding
   - algol_68
   - algol_60
@@ -259,8 +235,7 @@ clu:
   name: clu
 # ------------------------------------------
 cobol:
-  influenced:
-  - pl/i
+  influenced: []
   influenced_by: []
   name: cobol
 # ------------------------------------------
@@ -269,7 +244,6 @@ common_lisp:
   - java
   - dylan
   influenced_by:
-  - apl
   - scheme
   - lisp
   name: common_lisp
@@ -311,7 +285,6 @@ erlang:
 forth:
   influenced: []
   influenced_by:
-  - apl
   - lisp
   name: forth
 # ------------------------------------------
@@ -319,7 +292,6 @@ fortran:
   influenced:
   - c
   - basic
-  - pl/i
   influenced_by:
   - speedcoding
   - modula-2
@@ -328,8 +300,7 @@ fortran:
 fp:
   influenced:
   - haskell
-  influenced_by:
-  - apl
+  influenced_by: []
   name: fp
 # ------------------------------------------
 haskell:
@@ -344,7 +315,6 @@ haskell:
   - iswim
   - lisp
   - perl
-  - apl
   name: haskell
 # ------------------------------------------
 icon:
@@ -423,9 +393,7 @@ lisp:
   - clu
   - smalltalk
   - ruby
-  - ucblogo
   - scheme
-  - tcl
   - iswim
   - common_lisp
   - perl
@@ -482,12 +450,6 @@ modula-3:
   - oberon
   - modula-2
   name: modula-3
-# ------------------------------------------
-newsqueak:
-  influenced: []
-  influenced_by:
-  - c
-  name: newsqueak
 # ------------------------------------------
 oberon:
   influenced:
@@ -562,16 +524,6 @@ php:
   - c++
   name: php
 # ------------------------------------------
-pl/i:
-  influenced:
-  - c
-  influenced_by:
-  - speedcoding
-  - cobol
-  - algol
-  - fortran
-  name: pl/i
-# ------------------------------------------
 prolog:
   influenced:
   - erlang
@@ -619,7 +571,6 @@ scheme:
   - scala
   - ruby
   - common_lisp
-  - t
   - dylan
   - javascript
   - lua
@@ -674,31 +625,9 @@ speedcoding:
   influenced:
   - c
   - basic
-  - pl/i
   - fortran
   influenced_by: []
   name: speedcoding
-# ------------------------------------------
-t:
-  influenced: []
-  influenced_by:
-  - scheme
-  name: t
-# ------------------------------------------
-tcl:
-  influenced:
-  - php
-  influenced_by:
-  - awk
-  - lisp
-  name: tcl
-# ------------------------------------------
-ucblogo:
-  influenced:
-  - smalltalk
-  influenced_by:
-  - lisp
-  name: ucblogo
 # ------------------------------------------
 visual_basic:
   influenced:
